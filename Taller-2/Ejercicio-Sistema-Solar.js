@@ -1,6 +1,4 @@
 var planeta = "Tierra";
-
-
 const respuesta = "El planeta es ";
 
 
