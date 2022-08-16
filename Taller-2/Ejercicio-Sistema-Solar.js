@@ -1,37 +1,37 @@
-var pocision = 3;
+var planeta = "Tierra";
 
 
 const respuesta = "El planeta es ";
 
 
-if(pocision==1){
-    console.log(respuesta + "Mercurio"+ " " + "esta en la posición: 1")
+if(planeta=="Mercurio"){
+    console.log(respuesta + planeta + " " + "esta en la posición: 1")
 }else{
-    if(pocision==2){
-        console.log(respuesta + "Venus"+ " " + "esta en la posición: 2")
+    if(planeta=="Venus"){
+        console.log(respuesta + planeta + " " + "esta en la posición: 2")
     }else{
-        if(pocision==3){
-            console.log(respuesta + "Tierra"+ " " + "esta en la posición: 3")
+        if(planeta=="Tierra"){
+            console.log(respuesta + planeta + " " + "esta en la posición: 3")
         }else{
-            if(pocision==4){
-                console.log(respuesta + "Marte"+ " " + "esta en la posición: 4")
+            if(planeta=="Marte"){
+                console.log(respuesta + planeta + " " + "esta en la posición: 4")
             }else {
-                if(pocision==5){
-                    console.log(respuesta + "Jupiter"+ " " + "esta en la posición: 5")
+                if(planeta=="Jupiter"){
+                    console.log(respuesta + planeta + " " + "esta en la posición: 5")
                 }else{
-                    if(pocision==6){
-                        console.log(respuesta + "Saturno"+ " " + "esta en la posición: 6")
+                    if(planeta=="Saturno"){
+                        console.log(respuesta + planeta + " " + "esta en la posición: 6")
                     }else{
-                        if(pocision==7){
-                            console.log(respuesta + "Urano"+ " " + "esta en la posición: 7")
+                        if(planeta=="Urano"){
+                            console.log(respuesta + planeta + " " + "esta en la posición: 7")
                         }else{
-                            if(pocision==8){
-                                console.log(respuesta + "Neptuno"+ " " + "esta en la posición: 8")
+                            if(planeta=="Neptuno"){
+                                console.log(respuesta + planeta + " " + "esta en la posición: 8")
                             }else{
-                                if(pocision==9){
-                                    console.log(respuesta + "Pluton"+ " " + "esta en la posición: 9")
+                                if(planeta=="Pluton"){
+                                    console.log(respuesta + planeta + " " + "esta en la posición: 9")
                                 }else{
-                                    console.log("Ingresa un valor valido")
+                                    console.log("Ingresa un planeta de nuestro sistema solar")
                                 }
                             }
                         }
