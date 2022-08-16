@@ -1,5 +1,5 @@
 var masa = 50;
-var planeta = "Marte"
+var planeta = "Tierra";
 var grav_marte = 3.711;
 var grav_tierra = 9.81;
 var peso1 = masa * grav_marte;
