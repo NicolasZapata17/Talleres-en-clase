@@ -1,4 +1,4 @@
-var num = 997;
+var num = 157;
 var SiEsPrimo = true;
 
 for(i=2; i<num/2; i++){

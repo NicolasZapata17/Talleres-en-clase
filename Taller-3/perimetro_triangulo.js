@@ -14,3 +14,4 @@ if(lado_Derecho===lado_izquierdo===base){
     }
 }
 
+

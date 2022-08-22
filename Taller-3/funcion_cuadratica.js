@@ -3,8 +3,8 @@ var b =60;
 var c = 5;
 var x = (-b - Math.sqrt(Math.pow(b,2) - (4 * a * c))/2*a)
 var x_1 = (-b + Math.sqrt(Math.pow(b,2) - (4 * a * c))/2*a)
-console.log(x);
-console.log(x_1);
+console.log("La funcion cuadratica es: " + x);
+console.log("La funcion cuadratica es: " + x_1);
 
 
 //OTRA MANERA DE SOLUCIONARLO//
