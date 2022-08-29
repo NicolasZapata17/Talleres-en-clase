@@ -1,4 +1,4 @@
-let arreglo = [4, 3, 9, 7, 12];
+let arreglo = [4, 11, 9, 7, 12];
 let arreglo_2 = [1, 2, 5, 8, 11];
 let n = arreglo.length;
 let suma = 0;
