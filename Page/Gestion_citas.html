@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de citas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+    crossorigin="anonymous">
+</head>
+<body onload="mostrarHora()" style="box-sizing:0; padding:0; margin:0;">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid" style="background: #212529; padding:5px">
+                <a class="navbar-brand" href="/Page/Citas_medicas.html" style="color: azure;">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Page/gestion_medicos.html" style="color: azure;">Gestion de medicos</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: azure;">Gestion de citas medicas</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: azure;">Contactanos</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: azure;">
+                        Otras Secciones
+                        </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Seccion 1</a></li>
+                        <li><a class="dropdown-item" href="#">Seccion 2</a></li>
+                        <li><a class="dropdown-item" href="#">Seccion 3</a></li>
+                    </ul>
+                    </li>
+                    <span class="" id="reloj" style="color:#fff;font-family:sans-serif; border:solid 1px #fff; border-radius:30px; font-size:20px; 
+                    padding:5px 15px; "></span>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end of navbar and header -->
+
+    <main>
+        <div style="text-align: center;">
+            <h1>Bienvenidos al sistema de agendamiento de citas medicas</h1>
+
+            <form action="" style="font-family:cursive ;">
+
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1" style="font-size:15px"> Seleccione al medico</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Dr. Juan Perez</option>
+                        <option>Dr. Pedro Lopez</option>
+                        <option>Dr. Carlos Martinez</option>
+                        <option>Dr. Jose Gonzales</option>
+                        <option>Dr. Luisa Fernanda</option>
+                    </select>
+                </div><br>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2"> seleccione la hora</label>
+                    <select class="form-control" id="exampleFormControlSelect2">
+                        <option>7:00 am</option>
+                        <option>7:30 am</option>
+                        <option>8:30 am</option>
+                        <option>9:30 am</option>
+                        <option>10:00 am</option>
+                        <option>10:30 am</option>
+                        <option>11:00 am</option>
+                        <option>11:30 am</option>
+                        <option>12:00 am</option>
+                        <option>12:30 am</option>
+                        <option>13:00 am</option>
+                        <option>13:30 am</option>
+                        <option>14:00 am</option>
+                        <option>14:30 am</option>
+                        <option>15:00 am</option>
+                        <option>15:30 am</option>
+                        <option>16:00 am</option>
+                    </select>
+                </div><br>
+                <label for="appt-date">Escoje el dia que deseas la cita <b>(No se atiende sabado ni domingo)</b></label>
+                <select class="form-control" id="exampleFormControlSelect3">
+                <input type="date" name="" id="">
+                </select><br><br>
+                <button type="submit" style="border-radius:5px ;border:0;padding:5px 15px ;font-size:15px; font-weight:bold; background:rgb(2, 247, 145)">Enviar Solicitud</button>
+            </form>
+        </div>
+        <p style="font-family:cursive ;font-size:20px; text-align: center;">Aplicacion de citas medicas - desarrollada en JavaScript</p>
+    </main>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="/Page/Citas_medicas.js"></script>
+<script src="/Page/Gestion_citas.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+</html>
