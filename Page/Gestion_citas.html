@@ -52,14 +52,15 @@
     <!-- end of navbar and header -->
 
     <main>
+
         <div style="text-align: center;">
             <h1>Bienvenidos al sistema de agendamiento de citas medicas</h1>
 
             <form action="" style="font-family:cursive ;">
-
                 <div class="form-group">
                     <label for="exampleFormControlSelect1" style="font-size:15px"> Seleccione al medico</label>
                     <select class="form-control" id="exampleFormControlSelect1">
+                        <option></option>
                         <option>Dr. Juan Perez</option>
                         <option>Dr. Pedro Lopez</option>
                         <option>Dr. Carlos Martinez</option>
@@ -67,9 +68,11 @@
                         <option>Dr. Luisa Fernanda</option>
                     </select>
                 </div><br>
+
                 <div class="form-group">
                     <label for="exampleFormControlSelect2"> seleccione la hora</label>
                     <select class="form-control" id="exampleFormControlSelect2">
+                        <option></option>
                         <option>7:00 am</option>
                         <option>7:30 am</option>
                         <option>8:30 am</option>
@@ -89,16 +92,17 @@
                         <option>16:00 am</option>
                     </select>
                 </div><br>
-                <label for="appt-date">Escoje el dia que deseas la cita <b>(No se atiende sabado ni domingo)</b></label>
-                <select class="form-control" id="exampleFormControlSelect3">
-                <input type="date" name="" id="">
-                </select><br><br>
-                <button type="submit" style="border-radius:5px ;border:0;padding:5px 15px ;font-size:15px; font-weight:bold; background:rgb(2, 247, 145)">Enviar Solicitud</button>
+
+                <label for="appt-date">Escoje el dia que deseas la cita <b>(No se atiende sabado ni domingo)</b></label><br>
+                <input type="date" name="" id="exampleFormControlSelect3"><br><br>
+
+                <button type="submit" style="border-radius:5px ;border:0;padding:5px 15px ;font-size:15px; font-weight:bold; 
+                background:rgb(2, 247, 145)">Enviar Solicitud</button>
             </form>
         </div>
+
         <p style="font-family:cursive ;font-size:20px; text-align: center;">Aplicacion de citas medicas - desarrollada en JavaScript</p>
     </main>
-
 
 
 </body>
